@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+
+.title{
+    background: purple;
+    margin-top: 0;
+}
+
+h1{
+    margin-top: 0;
+    padding: 1em;
+    color: white;
+}
+
+.profile-section{
+    width: 43em;
+    height: 22em;
+    background: lightgray;
+}
+.profileSectionTitle{
+    background: blue;
+    color: white;
+    height: 25px;
+    padding: 3px;
+   
+}
+h3{
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.row{
+    border: 3px solid pink;
+}
+
+.column{
+    margin-left: 3em;
+}
+
+.img-section{
+    width: 225px;
+    height: 100%;
+    border: 1px solid greenyellow;
+}
+
+.img-column{
+    width: 175px;
+    border: 1px solid blue;
+    height: 200px;
+    margin: 5px 0 0 15px;
+}
