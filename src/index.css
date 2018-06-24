@@ -22,7 +22,10 @@ h1{
 .profileSectionTitle{
     background: #2199f2;
     color: white;
-    height: 25px;   
+    height: 35px;  
+    padding-top: 5px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .caloriesRemainingText{
@@ -45,14 +48,6 @@ h3{
     margin-left: 10px;
 }
 
-.row{
-    border: 3px solid pink;
-}
-
-.data-section{
-    border: 2px solid purple;
-}
-
 .col-md-8 .col-md-6{
     margin-top: 0;
     padding: 0;
@@ -64,13 +59,9 @@ h3{
     background-image: url('profile.jpeg');
 }
 
-.jumbotron{
-    background: teal;
-    padding: 0;
-}
 
 .container .jumbotron, .container-fluid .jumbotron{
-    padding-left: 10px;
+    padding-left: 15px;
     padding-right: 10px;
 }
 
@@ -80,4 +71,28 @@ button{
     border-radius: 12px;
     color: white;
 
+}
+
+.jumbotron{
+    padding: 0;
+}
+
+.quick-add-title{
+    margin-left: 10px;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 20px;
+    color: #2199f2;
+}
+
+.quick-add-row{
+    padding: 10px;
+}
+
+.quick-add-row-button{
+    padding: 7px;
+}
+
+.quick-add-button{
+    background-color: #29AB87;
 }
