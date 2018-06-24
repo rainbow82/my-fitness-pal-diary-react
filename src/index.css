@@ -15,8 +15,8 @@ h1{
 }
 
 .profile-section{
-    width: 43em;
     height: 22em;
+    margin-left: 25px;
     background: lightgray;
 }
 .profileSectionTitle{
@@ -42,12 +42,20 @@ h3{
 .img-section{
     width: 225px;
     height: 100%;
-    border: 1px solid greenyellow;
+    background: greenyellow;
+}
+
+.data-section{
+    border: 2px solid purple;
+}
+
+.col-md-8 .col-md-6{
+    margin-: 0;
+    padding: 0;
 }
 
 .img-column{
     width: 175px;
     border: 1px solid blue;
     height: 200px;
-    margin: 5px 0 0 15px;
 }
