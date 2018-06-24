@@ -38,6 +38,33 @@ class CaloriesRemainingSecton extends React.Component{
     }
 }
 
+class CalculationSection extends React.Component{
+    render(){
+        return(
+            <div className='row'>
+                <div className='col-md-3'>
+                    <p>1200</p><br/>
+                    <p>Goal</p>
+                </div>
+                <div className='col-md-3'>
+                    <p>0</p> 
+                    <p>-</p><br/>
+                    <p>Food</p>
+                </div>
+                <div className='col-md-3'>
+                    <p>0</p> 
+                    <p>=</p><br/>
+                    <p>Exercise</p>
+                </div>
+                <div className='col-md-3'>
+                    <p>0</p><br/>
+                    <p>Net</p>
+                </div>
+            </div>
+        )
+    }
+}
+
 class ProfileButtonSection extends React.Component{
     render(){
         return(
@@ -67,6 +94,9 @@ class ProfileBody extends React.Component{
                             <ProfileButtonSection/>
                         </div>
                     </div>
+                    <div className='row'>
+                        <CalculationSection/>
+                    </div>
                     <div className='row'></div>
                 
                 </div>
@@ -79,18 +109,22 @@ class ProfileBody extends React.Component{
 class ProfileSection extends React.Component{
     render(){
         return(
-            <div className='container-fluid'>
             <div className='row'>
-                <div className='col-md-6  profile-section'>
                     <ProfileSectionTitle />
                     <div className='row'>
                         <ProfileBody/>
                     </div>
-                </div>
 
                
             </div>
-            </div>
+        )
+    }
+}
+
+class QuickAddSection extends React.Component{
+    render(){
+        return(
+            <div className='quick-add-title'>Quick Add</div>
         )
     }
 }
@@ -100,8 +134,18 @@ class App extends React.Component{
         return(
             <div className='app'>
                 <Title />
-                <ProfileSection />
+                <div className='container-fluid'>
+                    <div className='row'>
+                        <div className='col-md-6  profile-section'>
+                            <ProfileSection />
+                        </div>
+                        <div className='col-md-4'>
+                            <QuickAddSection/>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
         )
     }
 }
