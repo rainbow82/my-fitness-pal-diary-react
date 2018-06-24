@@ -23,7 +23,7 @@ h1{
     background: blue;
     color: white;
     height: 25px;
-    padding: 3px;
+    /* padding: 3px; */
    
 }
 h3{
@@ -58,4 +58,8 @@ h3{
     width: 175px;
     border: 1px solid blue;
     height: 200px;
+}
+
+.jumbotron{
+    background: teal;
 }

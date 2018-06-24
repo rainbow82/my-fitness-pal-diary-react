@@ -109,7 +109,7 @@ class ProfileBody extends React.Component{
 class ProfileSection extends React.Component{
     render(){
         return(
-            <div className='row'>
+            <div>
                     <ProfileSectionTitle />
                     <div className='row'>
                         <ProfileBody/>
@@ -124,7 +124,48 @@ class ProfileSection extends React.Component{
 class QuickAddSection extends React.Component{
     render(){
         return(
-            <div className='quick-add-title'>Quick Add</div>
+            <div>
+                <div className='quick-add-title'>Quick Add</div>
+                <div className='row'>
+                    <div className='jumbotron'>
+                        <div className='row'>
+                            <div className='col-md-4'>
+                                <p>Food</p>
+                            </div>
+                            <div className='col-md-4'>
+                                <p>Calories</p>
+                            </div> 
+                            <div className='col-md-4'>
+                                <p>Add</p>
+                            </div> 
+                        </div>
+                        <div className='row'>
+                            <div className='col-md-4'>
+                                
+                                
+                                <div className='row'>Yogurt</div>
+                                <div className='row'>Granola</div>
+                                <div className='row'>Apple</div>
+                                <div className='row'>Chicken Wrap</div>
+                            </div>
+                            <div className='col-md-4'>
+                            
+                                
+                                <div className='row'>70</div>
+                                <div className='row'>130</div>
+                                <div className='row'>80</div>
+                                <div className='row'>210</div>
+                            </div> 
+                            <div className='col-md-4'>
+                                <div className='row'><button>Add Me</button></div>
+                                <div className='row'><button>Add Me</button></div>
+                                <div className='row'><button>Add Me</button></div>
+                                <div className='row'><button>Add Me</button></div>
+                            </div> 
+                        </div>
+                    </div>   
+                </div>
+            </div>
         )
     }
 }
