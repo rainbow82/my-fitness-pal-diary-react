@@ -31,8 +31,8 @@ class CaloriesRemainingSecton extends React.Component{
     render(){
         return(
             <div>
-                <p>Calories Remaining Change</p>
-                <h3>1200</h3>
+                <div className='caloriesRemainingText'>Calories Remaining <a href='#'>Change</a></div>
+                <div className='caloriesTotalNumber'>1200</div>
             </div>
         )
     }
@@ -70,8 +70,8 @@ class ProfileButtonSection extends React.Component{
         return(
             <div>
                 <div>
-                    <button>Add Exercise</button>
-                    <button>Add Food</button>
+                    <button className='profileSection-button'>Add Exercise</button>
+                    <button className='profileSection-button'>Add Food</button>
                 </div>
             </div>
         )
@@ -125,32 +125,19 @@ class QuickAddSection extends React.Component{
     render(){
         return(
             <div>
-                <div className='quick-add-title'>Quick Add</div>
                 <div className='row'>
                     <div className='jumbotron'>
                         <div className='row'>
-                            <div className='col-md-4'>
-                                <p>Food</p>
-                            </div>
-                            <div className='col-md-4'>
-                                <p>Calories</p>
-                            </div> 
-                            <div className='col-md-4'>
-                                <p>Add</p>
-                            </div> 
+                        <div>Quick Add</div>
                         </div>
                         <div className='row'>
                             <div className='col-md-4'>
-                                
-                                
                                 <div className='row'>Yogurt</div>
                                 <div className='row'>Granola</div>
                                 <div className='row'>Apple</div>
                                 <div className='row'>Chicken Wrap</div>
                             </div>
                             <div className='col-md-4'>
-                            
-                                
                                 <div className='row'>70</div>
                                 <div className='row'>130</div>
                                 <div className='row'>80</div>
@@ -180,7 +167,7 @@ class App extends React.Component{
                         <div className='col-md-6  profile-section'>
                             <ProfileSection />
                         </div>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 col-md-push-1'>
                             <QuickAddSection/>
                         </div>
                     </div>
