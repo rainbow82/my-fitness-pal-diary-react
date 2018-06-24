@@ -4,13 +4,13 @@ body{
 }
 
 .title{
-    background: purple;
+    background: #a457e5;
     margin-top: 0;
 }
 
 h1{
     margin-top: 0;
-    padding: 1em;
+    padding: .5em;
     color: white;
 }
 

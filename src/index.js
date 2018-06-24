@@ -10,7 +10,7 @@ import './index.css';
 function Title(){
     return(
         <div className='title'>
-            <h1>My Fitness Pal Diary</h1>
+            <h1>My Fitness Pal</h1>
         </div>
     )
 }
